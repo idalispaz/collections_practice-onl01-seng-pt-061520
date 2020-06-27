@@ -40,3 +40,17 @@ def add_s (array)
   end
 end
 
+def find_a (array)
+  array.select do |word|
+    word.chr == "a"
+  end
+end
+
+
+
+def sum_array (array)
+  array.inject do |sum, num|
+    sum + num
+  end
+end
+
